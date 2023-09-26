@@ -1,0 +1,13 @@
+---
+title: "Bonus Problem Set"
+author: "Tom Hanna"
+format: html
+---
+
+## This is my Bonus Problem Set.
+
+```{r}
+X <- "POLS3316"
+X
+```
+

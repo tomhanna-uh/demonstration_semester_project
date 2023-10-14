@@ -1,0 +1,144 @@
+---
+title: "Problem Set 4"
+format: 
+        html:
+                self-contained: true
+---
+
+**For these questions, use your project data set that you have chosen for the Project assignment or any test data set other than those used in class lectures or labs.**
+
+**This will be the first part of your semester project.**
+
+**If you choose not to use Quarto or R Markdown, your results need to be similarly formatted to the output of a rendered Quarto or knitted R Markdown document. Readability and format matter.**
+
+<!-- **If you choose, you may also simulate a data set with at least 100 observations of at least two variables. If you do this, give the variables descriptive column names.** -->
+
+```{r}
+
+demonstration_data <- read.csv("demonstration_data.csv")
+head(demonstration_data)
+
+```
+
+
+1. What is the source of your data set? (Where did you get it?)
+
+Answer: VDem (Varieties of Democracy) Project
+
+2. How did the source obtain the data? (Survey, experiment, observation/collection)
+
+Answer: The V-Dem project collects data through expert surveys and observation.
+
+3. What are your two main variables of interest (x and y)? *If you are considering cause and effect, x is the cause and y is the effect*
+
+Answer: x - v2x_partipdem (Participatory Democracy Index) 
+y - v2clacjstw (Access to Justice for Women Index)
+
+4. How many observations (n) are there? *You can use length() to count number or you can use View() to look at the data and look for the number of rows. You can also use as.numeric(length()) to create an object with the number of observations, n, for later use.* 
+
+**For both your x and y variables:**
+
+n for x: 179
+
+n for y: 179
+
+5. What is the median?
+
+```{r}
+median(demonstration_data$v2x_partipdem)
+
+median(demonstration_data$v2clacjstw)
+
+
+```
+
+
+**median of x:** 0.33
+
+**median of y:** 0.914
+
+6. What is the mean?
+
+```{r}
+
+mean(demonstration_data$v2x_partipdem)
+
+mean(demonstration_data$v2clacjstw)
+
+
+
+```
+
+
+mean of x: 0.3375642
+
+mean of y: 0.8239832
+
+7. What are the sample variance and sample standard deviation?
+
+*Note: We will use sample variance for project data because in most cases your data sets are only a sample not the full population.*
+
+```{r}
+
+var(demonstration_data$v2x_partipdem)
+
+var(demonstration_data$v2clacjstw)
+
+
+sd(demonstration_data$v2x_partipdem)
+
+sd(demonstration_data$v2clacjstw)
+
+
+
+```
+
+
+sample variance of x: 0.03930313
+
+sample standard deviation of x: 1.690575
+
+sample variance of y: 0.1982502
+
+sample standard deviation of y: 1.300221
+
+8. What are the minimum and maximum?
+
+```{r}
+
+summary(demonstration_data$v2x_partipdem)
+
+summary(demonstration_data$v2clacjstw)
+
+```
+
+
+x minimum:      0.0090          x maximum:  0.8120
+
+y maximum:      -2.5770         y maximum:  3.9320
+
+9. What are the first and third quartiles?
+
+x first quartile:   0.1680   x third quartile:  0.4815
+
+y first quartile:  -0.1185   y third quartile:  1.7295
+
+10. Plot a histogram of the x variable. (2 points)
+
+```{r}
+
+hist(demonstration_data$v2x_partipdem)
+
+
+```
+
+
+11. Plot a histogram of the y variable. (2 points)
+
+```{r}
+
+hist(demonstration_data$v2clacjstw)
+
+```
+
+

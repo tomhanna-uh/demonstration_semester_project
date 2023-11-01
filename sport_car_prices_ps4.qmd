@@ -56,15 +56,15 @@ sports_car_prices$Torque_Ft_Lb <- as.numeric(gsub("N/A","999999999999",sports_ca
 sports_car_prices <- sports_car_prices[c("Car_Make","Car_Model","Price_Dollars","Torque_Ft_Lb")]
 
 # drop NAs for Torque
-sports_car_prices[which(sports_car_prices$Torque_Ft_Lb != "999999999999")]
+sports_car_prices[which(sports_car_prices$Torque_Ft_Lb != 999999999999),]
 
 # check the data
 summary(sports_car_prices$Year)
-var(sports_car_prices$Torque_Ft_Lb)
+var(sports_car_prices$Torque_Ft_Lb, na.rm = TRUE)
 sd(sports_car_prices$Price_Dollars)
 
 # write to a new CSV file
-
+write.csv(sports_car_prices, file = "clean_sports_car_prices.csv")
 
 
 ```

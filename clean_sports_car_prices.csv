@@ -1,0 +1,577 @@
+"","Car_Make","Car_Model","Price_Dollars","Torque_Ft_Lb"
+"2","Lamborghini","Huracan",274390,443
+"5","McLaren","720S",298000,568
+"7","Mercedes-Benz","AMG GT",118500,494
+"8","Chevrolet","Corvette",59900,465
+"10","Nissan","GT-R Nismo",212000,481
+"11","Aston Martin","DB11",201495,516
+"12","Bugatti","Chiron",3e+06,1180
+"15","Koenigsegg","Jesko",2800000,1015
+"16","Lexus","LC 500",92950,398
+"17","Lotus","Evora GT",104450,317
+"18","Maserati","GranTurismo",150000,384
+"19","Porsche","Boxster",62000,280
+"21","Ariel","Atom",75000,243
+"22","Bentley","Continental GT",225000,664
+"24","Mercedes-AMG","SLS AMG",248000,468
+"25","Pagani","Huayra",2800000,737
+"26","Polestar","1",155000,738
+"29","Lamborghini","Aventador SVJ",517770,531
+"30","Ferrari","SF90 Stradale",625000,590
+"32","McLaren","Artura",225000,531
+"35","Chevrolet","Camaro ZL1",64695,650
+"37","Nissan","370Z Nismo",45690,276
+"39","Lamborghini","Urus",218000,626
+"40","Ferrari","Roma",222000,561
+"42","McLaren","GT",210000,465
+"45","Porsche","Cayman",58900,280
+"46","Lamborghini","Aventador SVJ",518000,531
+"47","Ferrari","SF90 Stradale",625000,590
+"49","McLaren","570S",192500,443
+"51","Mercedes-Benz","AMG C63",68000,516
+"52","Chevrolet","Camaro SS",42500,455
+"54","Nissan","370Z Nismo",46100,276
+"55","Aston Martin","Vantage",142100,505
+"56","Lotus","Evora GT",105000,317
+"57","Porsche","Panamera",87200,331
+"58","Lamborghini","Urus",218000,627
+"59","Ferrari","Roma",222000,560
+"61","McLaren","600LT",241000,457
+"64","Audi","RS5",75400,443
+"66","Chevrolet","Camaro SS",42900,455
+"68","Ford","GT",5e+05,550
+"70","Lamborghini","Aventador",417826,531
+"71","Maserati","GranTurismo",150980,384
+"73","Mercedes-Benz","C63 AMG",70100,516
+"74","Nissan","370Z",30090,270
+"76","Audi","TT RS",67600,354
+"78","Chevrolet","Corvette Stingray",59900,465
+"79","Ferrari","F8 Tributo",274280,568
+"80","Ford","Mustang Mach 1",52915,420
+"81","Lamborghini","Urus",218009,627
+"85","Bentley","Continental GT",219800,664
+"91","Lotus","Evora GT",105000,317
+"93","Mazda","MX-5 Miata",26830,151
+"99","Rolls-Royce","Wraith",330000,605
+"104","Lamborghini","Aventador",522000,531
+"105","Ferrari","SF90 Stradale",625000,590
+"107","McLaren","GT",212500,465
+"109","Mercedes-Benz","SL 63 AMG",155000,664
+"110","Chevrolet","Camaro ZL1",64000,650
+"112","Nissan","370Z",31015,270
+"113","Aston Martin","DBS Superleggera",304995,664
+"114","Bugatti","Chiron",3e+06,1180
+"115","Lotus","Evora GT",105000,317
+"116","McLaren","570S",192500,443
+"117","Porsche","Panamera Turbo S E-Hybrid",190000,642
+"118","Lamborghini","Urus",222000,627
+"119","Ferrari","Roma",222000,561
+"120","Audi","RS7",115000,590
+"123","Lamborghini","Aventador",417826,509
+"124","Aston Martin","DBS Superleggera",304995,664
+"125","Bentley","Continental GT",220300,664
+"127","Mercedes-Benz","SLS AMG",239100,468
+"128","McLaren","570S",192500,443
+"130","Chevrolet","Camaro ZL1",62500,650
+"131","Dodge","Challenger SRT Hellcat",65290,656
+"132","Ferrari","Portofino",219750,560
+"134","Lamborghini","Urus",222004,627
+"135","Mercedes-Benz","AMG C63",71350,479
+"136","Aston Martin","Vantage",146000,505
+"139","Lamborghini","Aventador",517770,507
+"141","Audi","TT RS",67600,354
+"142","McLaren","570S",192500,443
+"146","Ford","Mustang Mach 1",51720,420
+"147","Nissan","370Z Nismo",45790,276
+"149","Lamborghini","Urus",218009,627
+"150","Ferrari","Roma",222620,561
+"152","McLaren","GT",2e+05,465
+"154","Mercedes-Benz","AMG C63",77500,516
+"155","Chevrolet","Camaro ZL1",62500,650
+"156","Acura","NSX",157500,476
+"158","Bentley","Continental GT",220300,664
+"159","Bugatti","Chiron",3e+06,1180
+"164","Lotus","Evora GT",105950,317
+"170","Rolls-Royce","Wraith",330000,605
+"172","Tesla","Model S Plaid",131190,1050
+"176","Porsche","718 Cayman",61500,280
+"177","Lamborghini","Aventador SVJ",518000,531
+"179","Audi","RS 6",109000,590
+"180","McLaren","GT",210000,465
+"183","Chevrolet","Camaro SS",42000,455
+"185","Nissan","370Z Nismo",45000,276
+"186","Porsche","Taycan",185000,774
+"187","Lamborghini","Urus",222004,627
+"188","Ferrari","F8 Tributo",276550,568
+"190","McLaren","570S",191000,443
+"192","Mercedes-Benz","AMG C 63",69900,479
+"193","Chevrolet","Camaro ZL1",64000,650
+"195","Lamborghini","Aventador",517700,509
+"197","Audi","RS 6 Avant",109000,590
+"198","McLaren","600LT",242500,457
+"201","Chevrolet","Camaro ZL1",62000,650
+"204","Nissan","370Z",30090,270
+"206","Lamborghini","Urus",218000,626
+"207","Bugatti","Chiron",3e+06,1180
+"208","Ferrari","F8 Tributo",274280,568
+"209","Audi","RS 7",114000,590
+"210","McLaren","570S",191000,443
+"213","Porsche","Panamera Turbo S",177700,604
+"214","Lamborghini","Aventador S",417650,509
+"215","Ferrari","SF90 Stradale",625000,590
+"217","McLaren","600LT",256500,457
+"219","Mercedes-Benz","S63 AMG",152500,664
+"220","Chevrolet","Camaro ZL1",64695,650
+"223","Porsche","Taycan Turbo S",185000,774
+"224","Lamborghini","Urus",218009,627
+"225","Ferrari","812 Superfast",363730,530
+"227","McLaren","GT",210000,465
+"229","Mercedes-Benz","AMG GT R",183000,516
+"230","Chevrolet","Corvette Stingray",60995,470
+"233","Jaguar","F-Type R",103200,516
+"235","Lotus","Evora GT",99800,317
+"236","Porsche","Cayman GT4",100200,309
+"239","BMW","M2 Competition",58900,406
+"240","Chevrolet","Camaro ZL1",64695,650
+"245","Nissan","370Z Nismo",47820,276
+"247","Subaru","WRX STI",38170,290
+"249","Porsche","Cayman GT4",102000,309
+"250","Lamborghini","Aventador",393695,507
+"252","Audi","RS7",114000,590
+"253","McLaren","600LT",256500,457
+"255","Mercedes-Benz","AMG GT",118500,494
+"256","Chevrolet","Camaro SS",40590,455
+"257","Ford","Mustang Mach 1",52720,420
+"258","Nissan","370Z Nismo",45000,276
+"260","Lamborghini","Urus",222004,627
+"263","McLaren","GT",210000,465
+"264","Dodge","Challenger SRT Hellcat",62290,656
+"265","Aston Martin","DBS Superleggera",304995,663
+"266","Jaguar","F-Type R",103200,516
+"270","Audi","RS 5 Coupe",75100,443
+"271","Chevrolet","Camaro ZL1",64195,650
+"273","McLaren","GT",211000,465
+"275","Bugatti","Chiron",2998000,1180
+"276","Koenigsegg","Jesko",3e+06,1015
+"277","Ferrari","SF90 Stradale",625000,590
+"280","Pagani","Huayra Roadster BC",3500000,774
+"283","Aston Martin","Vantage",146000,505
+"288","Lotus","Evora GT",100450,317
+"289","Maserati","GranTurismo",134300,384
+"291","Alfa Romeo","Giulia Quadrifoglio",76400,443
+"292","Audi","RS7",114000,590
+"296","Lamborghini","Aventador",417826,531
+"297","McLaren","Artura",225000,531
+"298","Mercedes-Benz","SLS AMG",247500,516
+"299","Nissan","370Z Nismo",45790,276
+"304","Bugatti","Chiron",2998000,1180
+"305","McLaren","570S",202500,443
+"306","Porsche","Taycan Turbo S",185000,774
+"307","Lamborghini","Aventador S",417826,509
+"311","Mercedes-Benz","SLS AMG",275000,468
+"312","Chevrolet","Camaro ZL1",63000,650
+"314","Jaguar","F-Type",103200,516
+"315","Lotus","Evora GT",96950,317
+"317","McLaren","765LT",358000,590
+"318","Nissan","370Z",30000,270
+"319","Pagani","Huayra",2600000,738
+"320","Porsche","Panamera Turbo S",180000,604
+"321","Tesla","Model S Plaid",131100,1050
+"322","Aston Martin","DB11",201495,513
+"324","Lotus","Evora",96950,317
+"325","Acura","NSX",159495,476
+"326","Alfa Romeo","Giulia Quadrifoglio",76950,443
+"327","Bentley","Continental GT",202500,664
+"330","Lexus","LC 500",92950,398
+"334","Porsche","718 Cayman",59900,280
+"335","Rolls-Royce","Wraith",330000,605
+"337","Chevrolet","Camaro SS",40000,455
+"340","Aston Martin","DB11",209000,516
+"342","Bugatti","Chiron",3e+06,1180
+"344","Jaguar","F-Type",103200,516
+"346","Lexus","LC",92950,398
+"347","Lotus","Evora GT",104200,317
+"348","Maserati","GranTurismo",133050,384
+"349","McLaren","570S",196350,443
+"351","Pagani","Huayra BC",2600000,774
+"354","Rolls-Royce","Wraith",338000,605
+"357","Aston Martin","Vantage",150000,505
+"358","Bentley","Continental GT",218400,664
+"359","Dodge","Challenger SRT Hellcat Redeye",73000,707
+"361","Lexus","LC 500",92950,398
+"362","Lotus","Evora GT",104970,317
+"363","Maserati","GranTurismo",132400,384
+"364","Porsche","Cayman GT4",101200,309
+"366","Alpine","A110",71500,236
+"367","Audi","RS7",114000,590
+"368","BMW","M4",71800,406
+"369","Chevrolet","Camaro ZL1",64195,650
+"371","Ferrari","Portofino",218750,560
+"373","Lamborghini","Aventador SVJ",517700,531
+"374","McLaren","600LT",240000,457
+"375","Aston Martin","DB11",221400,516
+"376","Bentley","Continental GT",202500,664
+"378","Dodge","Challenger SRT Hellcat",64100,656
+"381","Lexus","LC 500",92950,398
+"382","Lotus","Evora GT",100450,317
+"383","Maserati","GranTurismo",150980,384
+"386","Pagani","Huayra",3500000,738
+"387","Porsche","Cayman GT4",102550,309
+"389","Rolls-Royce","Wraith",330000,642
+"392","Acura","NSX",157500,476
+"393","Aston Martin","Vantage",146000,505
+"395","Dodge","Challenger SRT Hellcat",64195,656
+"398","Lotus","Evora GT",105000,317
+"401","Porsche","Cayman GT4",102000,309
+"402","Tesla","Model S Plaid",141190,1050
+"403","Audi","RS 5",75100,443
+"405","Chevrolet","Camaro ZL1",64995,650
+"407","Ford","GT",5e+05,550
+"409","Lamborghini","Aventador S",417650,509
+"410","Aston Martin","DB11",205000,516
+"413","BMW","M4 Competition",75695,479
+"415","Dodge","Charger Hellcat",71490,650
+"416","Ferrari","F8 Tributo",274280,568
+"417","Ford","GT",5e+05,550
+"418","Jaguar","F-Type R",103200,516
+"420","Lexus","LC 500",93050,398
+"423","Mercedes-Benz","AMG GT Black Series",326050,590
+"424","Porsche","Cayman GT4",102500,309
+"425","Lamborghini","Aventador",417650,531
+"426","Ferrari","Portofino",218750,560
+"428","McLaren","600LT Spider",256500,457
+"431","Chevrolet","Camaro SS 1LE",44500,455
+"432","Ford","Mustang Mach 1",51000,420
+"433","Nissan","370Z Nismo",45000,276
+"434","Aston Martin","Vantage",146000,505
+"436","Koenigsegg","Jesko",3e+06,1106
+"437","Pagani","Huayra",2600000,738
+"438","McLaren","Speedtail",2300000,848
+"439","Lamborghini","Sián",3600000,531
+"440","Rimac","C_Two",2400000,1732
+"442","Lamborghini","Aventador",393695,531
+"443","Ferrari","Portofino",215000,413
+"445","McLaren","GT",210000,465
+"452","Bentley","Continental GT",220000,664
+"454","Lamborghini","Urus",222004,627
+"455","Ferrari","F8 Spider",280000,568
+"457","McLaren","570S",208800,443
+"460","Lamborghini","Aventador",393695,509
+"463","McLaren","GT",208800,465
+"466","Chevrolet","Camaro ZL1",62000,650
+"469","Dodge","Challenger SRT Hellcat",71000,656
+"470","Aston Martin","DBS Superleggera",308000,663
+"472","Jaguar","F-Type R",105900,516
+"476","Lamborghini","Urus",218000,627
+"477","Aston Martin","Vantage",146000,505
+"478","Lotus","Evora",94000,317
+"481","Maserati","GranTurismo",134300,384
+"482","Porsche","Cayman GT4",100200,309
+"484","BMW","M2 Competition",58900,406
+"487","Ford","GT",5e+05,550
+"490","Mercedes-AMG","C63 S Coupe",77950,516
+"491","Nissan","370Z Nismo",45790,276
+"492","Porsche","718 Boxster",62000,280
+"493","Lamborghini","Aventador S",417826,507
+"494","Ferrari","F8 Tributo",274280,568
+"495","Audi","TT RS Coupe",67600,354
+"496","BMW","M4 Coupe",71800,406
+"497","Acura","NSX",159495,476
+"502","Jaguar","F-Type",105900,516
+"503","Koenigsegg","Jesko",2800000,1106
+"504","Lexus","LC 500",92950,398
+"505","Lotus","Evora GT",104400,317
+"508","Pagani","Huayra",2600000,738
+"510","Rimac","C_Two",2400000,1696
+"511","Rolls-Royce","Wraith",335550,605
+"512","Tesla","Model S Plaid",141990,1050
+"514","TVR","Griffith",157500,420
+"515","Ultima","RS",220000,1300
+"517","Acura","NSX",157500,476
+"519","Bentley","Continental GT",202500,664
+"520","Bugatti","Chiron",3e+06,1180
+"521","Dodge","Challenger SRT Hellcat",65000,656
+"522","Jaguar","F-Type",63100,339
+"523","Lexus","LC 500",92950,398
+"525","Maserati","GranTurismo",134300,384
+"526","Porsche","Taycan",185000,774
+"530","Mercedes-Benz","AMG GT Black Series",325000,590
+"531","Chevrolet","Camaro ZL1",63000,650
+"532","Ford","GT",5e+05,550
+"533","Aston Martin","DBS Superleggera",307820,664
+"535","Dodge","Challenger SRT Hellcat Redeye",80190,707
+"540","Koenigsegg","Jesko",2800000,1015
+"553","Aston Martin","Vantage",146000,505
+"554","Lotus","Evora GT",96950,317
+"555","Porsche","Panamera Turbo S",180000,604
+"557","Ferrari","SF90 Stradale",625000,590
+"559","McLaren","570S",192500,443
+"561","Mercedes-Benz","AMG C 63 S",77400,516
+"562","Chevrolet","Camaro ZL1",64695,650
+"563","Dodge","Challenger SRT Hellcat",64195,656
+"564","Ford","GT",5e+05,550
+"566","Porsche","Cayman GT4",102550,309
+"567","Audi","TT RS",67895,354
+"570","Mercedes-Benz","AMG GT 63 S",162900,664
+"572","Bugatti","Chiron",3e+06,1180
+"573","Aston Martin","DBS Superleggera",304995,664
+"574","Lotus","Evora GT",100450,317
+"576","Acura","NSX",157500,476
+"577","Lexus","LC",92950,398
+"578","Alfa Romeo","Giulia Quadrifoglio",74750,443
+"579","Audi","RS7",114000,590
+"580","Bentley","Continental GT",218400,664
+"581","BMW","M5",103500,553
+"582","Chevrolet","Camaro ZL1",64695,650
+"583","Dodge","Challenger Hellcat",70595,656
+"585","Jaguar","F-Type R",103200,516
+"586","Lamborghini","Aventador",393695,509
+"587","McLaren","570S",203500,443
+"590","Porsche","Boxster",62000,280
+"592","Lamborghini","Aventador",393695,531
+"593","Ferrari","Roma",222630,561
+"598","Chevrolet","Camaro",25000,455
+"600","Nissan","370Z Nismo",45000,276
+"601","Aston Martin","DBS Superleggera",307820,664
+"602","Lotus","Evora GT",100450,317
+"603","Maserati","GranTurismo",134300,384
+"605","Lamborghini","Urus",218009,627
+"606","Ferrari","SF90 Stradale",625000,590
+"609","Porsche","Taycan 4S",103800,472
+"610","Lamborghini","Aventador S",417650,509
+"611","Ferrari","SF90 Stradale",625000,590
+"613","McLaren","570S",192500,443
+"614","BMW","M4",72800,406
+"616","Chevrolet","Camaro SS",42000,455
+"617","Ford","GT",5e+05,550
+"618","Nissan","370Z Nismo",48000,276
+"619","Aston Martin","DBS Superleggera",307820,664
+"620","Lexus","LC 500",93000,398
+"621","Bentley","Continental GT",202500,664
+"622","Maserati","GranTurismo",150980,384
+"624","Rolls-Royce","Dawn",346300,605
+"625","Bugatti","Chiron Pur Sport",3599000,1180
+"627","Porsche","Panamera Turbo S E-Hybrid",186350,641
+"628","Acura","NSX",157500,476
+"629","Aston Martin","DB11",205600,498
+"630","Audi","RS7",114000,590
+"631","Bentley","Continental GT",201000,664
+"632","Bugatti","Chiron",3e+06,1180
+"634","Dodge","Challenger Hellcat",64000,656
+"635","Ferrari","812 Superfast",340000,530
+"636","Lamborghini","Aventador SVJ",517770,531
+"637","McLaren","600LT Spider",256500,457
+"638","Mercedes-AMG","GT Black Series",325000,590
+"640","Porsche","Cayman GT4",101000,309
+"641","Rimac","Nevera",2400000,1696
+"642","Rolls-Royce","Wraith",330000,605
+"643","Tesla","Model S Plaid",139990,999999999999
+"644","Toyota","Supra",43000,368
+"645","Porsche","718 Boxster",62000,280
+"647","Lamborghini","Aventador S",417826,509
+"650","McLaren","Artura",225000,531
+"653","Chevrolet","Camaro ZL1",64695,650
+"655","Nissan","370Z Nismo",45000,276
+"656","Dodge","Charger Hellcat",69995,650
+"657","Aston Martin","DBS Superleggera",305000,663
+"658","Alfa Romeo","Giulia Quadrifoglio",75000,443
+"659","Audi","TT RS",68000,354
+"660","Bentley","Continental GT",203825,664
+"662","Chevrolet","Corvette Stingray",58900,470
+"663","Dodge","Challenger SRT Hellcat",63000,656
+"666","Lamborghini","Aventador",417826,531
+"669","McLaren","570S",204995,443
+"671","Mercedes-Benz","SLS AMG",243600,468
+"672","Chevrolet","Camaro SS",42000,455
+"674","Nissan","370Z Nismo",47190,276
+"676","Lamborghini","Urus",218000,627
+"677","Ferrari","SF90 Stradale",625000,590
+"679","McLaren","Artura",225000,531
+"681","Mercedes-Benz","GT 63",161200,590
+"682","Chevrolet","Camaro ZL1",63000,650
+"683","Aston Martin","DBS Superleggera",310000,663
+"685","Koenigsegg","Jesko",2800000,1106
+"686","Pagani","Huayra",2600000,737
+"688","McLaren","Senna",1e+06,590
+"690","Ferrari","SF90 Stradale",625000,590
+"692","Audi","RS 6 Avant",110000,590
+"694","Chevrolet","Camaro ZL1",68000,650
+"695","Dodge","Challenger SRT Hellcat",65000,656
+"696","Ford","GT",5e+05,550
+"699","Mercedes-AMG","GT Black Series",330000,590
+"700","Aston Martin","DB11",205000,513
+"703","Lotus","Evora GT",1e+05,317
+"704","Maserati","GranTurismo",135000,384
+"712","Lamborghini","Aventador",393695,507
+"713","Mercedes-Benz","AMG C 63",69900,479
+"714","Nissan","370Z",30090,276
+"717","Chevrolet","Corvette Stingray",58900,470
+"719","Lamborghini","Aventador S",417650,507
+"724","Mercedes-Benz","SLS AMG",250000,590
+"725","Chevrolet","Camaro ZL1",63000,650
+"727","Nissan","370Z Nismo",46100,276
+"729","Lamborghini","Urus",218000,627
+"732","McLaren","570S",2e+05,443
+"735","Lamborghini","Aventador",417826,531
+"743","Nissan","370Z Nismo",45790,276
+"745","McLaren","765LT",358000,590
+"746","Lamborghini","Urus",218009,627
+"747","Mercedes-AMG","GT Black Series",325000,590
+"751","Ferrari","F8 Spider",274280,568
+"754","Lamborghini","Aventador SVJ",517770,531
+"755","Ferrari","SF90 Stradale",625000,590
+"756","Audi","RS6 Avant",109000,590
+"757","McLaren","600LT Spider",256500,457
+"759","Mercedes-Benz","AMG GT R",180000,516
+"760","Chevrolet","Camaro ZL1",64695,650
+"762","Nissan","370Z Nismo",48000,276
+"763","Porsche","Panamera Turbo S E-Hybrid",190000,642
+"764","Lamborghini","Urus",218000,627
+"765","Ferrari","Portofino M",235000,561
+"769","Mercedes-Benz","SLS AMG Black Series",335000,468
+"770","Chevrolet","Camaro SS",42000,455
+"779","Ford","GT",5e+05,550
+"781","Aston Martin","Vantage",142086,505
+"783","Bugatti","Chiron",3e+06,1180
+"786","Lotus","Evora GT",1e+05,317
+"788","Aston Martin","DBS Superleggera",304995,664
+"789","Lotus","Evora GT",98395,317
+"790","Porsche","Panamera Turbo S E-Hybrid",190000,642
+"791","Lamborghini","Aventador SVJ",517000,531
+"792","Ferrari","SF90 Stradale",625000,590
+"794","Mercedes-Benz","S63 AMG",168000,664
+"795","Chevrolet","Camaro ZL1",64500,650
+"796","Ford","GT",5e+05,550
+"797","Nissan","370Z Nismo",46000,276
+"799","Mercedes-AMG","C63 S Coupe",77500,516
+"800","Aston Martin","Vantage",147000,505
+"801","McLaren","570S",193000,443
+"803","Dodge","Challenger SRT Hellcat",64000,656
+"804","Lexus","LC 500",92950,398
+"805","Mercedes-AMG","GT 63 S",162000,664
+"806","Audi","TT RS",67600,354
+"807","Acura","NSX",157500,476
+"808","Porsche","Cayman GT4",102000,309
+"809","Lamborghini","Aventador S",417826,509
+"810","Ferrari","SF90 Stradale",625000,590
+"815","Chevrolet","Camaro SS",42000,455
+"817","Dodge","Challenger R/T",35000,400
+"818","Aston Martin","Vantage",151000,505
+"819","Lotus","Evora GT",105000,317
+"824","Bugatti","Chiron Super Sport 300+",5200000,1180
+"825","Rimac","Nevera",2400000,1696
+"828","Aston Martin","Vantage",142086,505
+"830","Dodge","Challenger SRT Hellcat",65000,656
+"832","Audi","RS 7 Sportback",114000,590
+"836","McLaren","GT",210000,465
+"838","Lamborghini","Aventador S",417826,507
+"841","Mercedes-Benz","AMG C43 Coupe",59900,384
+"843","Chevrolet","Corvette Stingray",59900,465
+"845","Lamborghini","Aventador",517000,509
+"846","Ferrari","Roma",222620,560
+"848","McLaren","GT",210000,465
+"850","Mercedes-Benz","C63 AMG",77000,479
+"851","Chevrolet","Camaro SS",43995,455
+"852","Ford","Mustang Mach 1",51720,420
+"853","Nissan","370Z Nismo",46610,276
+"855","Lamborghini","Urus",218009,627
+"856","Ferrari","SF90 Stradale",625000,590
+"858","McLaren","570S",192500,443
+"860","Mercedes-Benz","AMG A45",50000,354
+"861","Chevrolet","Camaro ZL1",63995,650
+"862","Acura","NSX",157500,476
+"863","Aston Martin","Vantage",142086,505
+"864","Bentley","Continental GT",202500,568
+"867","Lamborghini","Aventador",517000,509
+"868","McLaren","GT",201500,465
+"869","Mercedes-Benz","AMG GT R",183000,516
+"870","Porsche","Taycan Turbo S",185000,774
+"871","Audi","RS7",114000,590
+"872","BMW","M4",71800,406
+"873","Chevrolet","Camaro ZL1",63000,650
+"876","Jaguar","F-Type",62750,339
+"877","Lexus","LC 500",92000,398
+"878","Lotus","Evija",2800000,1254
+"879","Maserati","GranTurismo",2e+05,999999999999
+"880","Nissan","370Z",30090,270
+"881","Rolls-Royce","Ghost",332500,627
+"882","Porsche","Taycan",81250,254
+"883","Aston Martin","DB11",198995,516
+"884","Lotus","Evora GT",105000,317
+"888","Dodge","Charger",72000,707
+"889","Jaguar","F-Type",62750,339
+"890","Lexus","LC 500",93000,398
+"892","Ford","GT",5e+05,550
+"893","Maserati","GranTurismo",150980,384
+"894","McLaren","600LT",256500,457
+"895","Mercedes-Benz","SLS AMG",254995,468
+"896","Nissan","370Z",30000,270
+"897","Audi","RS 7",114000,590
+"898","Bentley","Continental GT",220000,568
+"899","Bugatti","Chiron",3e+06,NA
+"901","Aston Martin","Vantage",147000,505
+"905","Dodge","Challenger SRT Hellcat",60695,656
+"907","Jaguar","F-Type",64700,295
+"908","Lamborghini","Aventador",517770,531
+"910","Lotus","Evora GT",99990,317
+"911","Maserati","GranTurismo",150800,384
+"912","McLaren","GT",210000,465
+"913","Mercedes-Benz","AMG C 63",67600,479
+"914","Nissan","370Z Nismo",45790,276
+"916","Subaru","WRX STI",38170,290
+"919","Lamborghini","Aventador",393695,509
+"922","McLaren","570S",202000,443
+"925","Chevrolet","Camaro",25000,455
+"927","Nissan","370Z",33000,270
+"928","Alfa Romeo","Giulia Quadrifoglio",75250,443
+"930","Bentley","Continental GT",201000,664
+"931","Dodge","Challenger",62000,475
+"934","Lotus","Evora GT",99000,317
+"935","Maserati","GranTurismo",150000,384
+"936","Porsche","Cayman GT4",102500,309
+"939","Audi","RS 7",114000,590
+"944","McLaren","570S",208800,443
+"946","Nissan","370Z Nismo",47820,276
+"947","Porsche","Panamera GTS",134150,457
+"949","BMW","M4",71800,406
+"950","Ferrari","F8 Tributo",274280,568
+"951","Lamborghini","Aventador",393695,531
+"952","McLaren","GT",250000,465
+"953","Mercedes-Benz","AMG GT 4-Door Coupe",171200,664
+"955","Lotus","Evora GT",100500,317
+"956","Porsche","Taycan Turbo S",185000,774
+"957","McLaren","570S",195000,443
+"958","Lamborghini","Aventador SVJ",517770,531
+"959","Ford","GT",5e+05,550
+"963","Chevrolet","Camaro ZL1",63000,650
+"964","Dodge","Charger Hellcat",70000,650
+"965","Alfa Romeo","Giulia Quadrifoglio",78450,443
+"967","Ferrari","SF90 Stradale",625000,590
+"968","Porsche","Panamera Turbo S E-Hybrid",190000,642
+"970","Lamborghini","Urus",222000,627
+"971","Ford","Mustang Mach 1",52915,420
+"973","Lamborghini","Huracan",274390,443
+"976","McLaren","720S",298000,568
+"978","Mercedes-Benz","AMG GT",118500,494
+"979","Chevrolet","Corvette",59900,465
+"981","Nissan","GT-R Nismo",212000,481
+"982","Dodge","Challenger SRT Hellcat",64195,656
+"983","Aston Martin","Vantage",147000,505
+"986","Pagani","Huayra",2600000,740
+"989","Pininfarina","Battista",2500000,1696
+"990","Maserati","MC20",210000,538
+"991","Porsche","Cayman",59900,280
+"992","Lamborghini","Aventador",393695,509
+"993","Ferrari","SF90 Stradale",625000,590
+"994","Audi","RS 5",75100,443
+"996","BMW","M2",58900,406
+"997","Mercedes-Benz","SLS AMG",254500,468
+"998","Chevrolet","Camaro",25000,455
+"999","Ford","Mustang",27205,350
+"1000","Nissan","370Z",30090,270
+"1001","Aston Martin","Vantage",146000,505
+"1002","Bugatti","Chiron",3e+06,1180
+"1004","Lotus","Evija",2e+06,1254
+"1005","McLaren","Senna",1e+06,590
+"1006","Pagani","Huayra",2600000,738
+"1007","Rimac","Nevera",2400000,1696

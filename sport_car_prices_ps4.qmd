@@ -29,7 +29,7 @@ head(sports_car_prices)
 3, Remove the commas from price variable and coerce to numerice
 4. Coerce variables to numeric
 5. Drop unneeded varaibles
-6 Drop unneeded variables - There are two stubborn observations in Torque. It may be necessary to use "na.rm = TRUE" with anything that involves Torque. See the example with var()
+6  Remove NAs from Torque
 7. Save with new file name - clean_sports_car_prices.csv
 
 ```{r}
@@ -49,17 +49,16 @@ sports_car_prices$Price_Dollars <-sports_car_prices$Price..in.USD.
 sports_car_prices$Price_Dollars <- as.numeric(gsub(",","",sports_car_prices$Price_Dollars))
 
 # remove the commas from Torque_Ft_Lb and change price from character to numeric data (coerce to numeric)
-sports_car_prices$Torque_Ft_Lb <- as.numeric(gsub("N/A","999999999999",sports_car_prices$Torque_Ft_Lb))
+sports_car_prices$Torque_Ft_Lb <- as.numeric(sports_car_prices$Torque_Ft_Lb)
 
 # subset to just the variables we want
 
 sports_car_prices <- sports_car_prices[c("Car_Make","Car_Model","Price_Dollars","Torque_Ft_Lb")]
 
 # drop NAs for Torque
-sports_car_prices[which(sports_car_prices$Torque_Ft_Lb != 999999999999),]
+sports_car_prices <- na.omit(sports_car_prices)
 
 # check the data
-summary(sports_car_prices$Year)
 var(sports_car_prices$Torque_Ft_Lb, na.rm = TRUE)
 sd(sports_car_prices$Price_Dollars)
 

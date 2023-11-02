@@ -365,7 +365,6 @@
 "640","Porsche","Cayman GT4",101000,309
 "641","Rimac","Nevera",2400000,1696
 "642","Rolls-Royce","Wraith",330000,605
-"643","Tesla","Model S Plaid",139990,999999999999
 "644","Toyota","Supra",43000,368
 "645","Porsche","718 Boxster",62000,280
 "647","Lamborghini","Aventador S",417826,509
@@ -492,7 +491,6 @@
 "876","Jaguar","F-Type",62750,339
 "877","Lexus","LC 500",92000,398
 "878","Lotus","Evija",2800000,1254
-"879","Maserati","GranTurismo",2e+05,999999999999
 "880","Nissan","370Z",30090,270
 "881","Rolls-Royce","Ghost",332500,627
 "882","Porsche","Taycan",81250,254
@@ -508,7 +506,6 @@
 "896","Nissan","370Z",30000,270
 "897","Audi","RS 7",114000,590
 "898","Bentley","Continental GT",220000,568
-"899","Bugatti","Chiron",3e+06,NA
 "901","Aston Martin","Vantage",147000,505
 "905","Dodge","Challenger SRT Hellcat",60695,656
 "907","Jaguar","F-Type",64700,295

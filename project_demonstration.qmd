@@ -11,8 +11,9 @@ editor: source
 
 ## Introduction
 
-- First paragraph: Introduction - Introduce your topic. If you have a formal or informal research question, you can start with it. (Note: you are not expected to answer the research question this semester.) 
-  - Explain why the topic is important or interesting in one or two sentences. Describe what you hope to learn from the data. Did any other reading influence your thinking or interest (cite appropriately)? (1 / 2 point)
+In this project, I perform a preliminary investigation of the relationship between Participatory Democracy and Access to Justice for Women. While access to justice and gender equality are both elements of a modern liberal democracy, my research question is whether the participatory aspect of democracy encourages of discourages gender equality in access to justice. I do not examine any control variables or other aspects of democracy, so this is purely a preliminary investigation to establish that the expected relationship exists. 
+
+This relationship is important because of the normative importance of gender equality and the practical importance for gender equality of first establishing the most basic level of equality before the law. It should be apparent that full politics rights for half the population is a bare minimum for a modern liberal democracy, but until just over a hundred years ago even voting rights were denied to women in most Protestant democracies and until after World War II in many Catholic democracies.^[Welzel C, Norris P and Inglehart R (2002) Gender equality and democracy. Comparative sociology 1(3-4). Brill: 321–345.] Welzel, Norris, and Inglehart (ibid.) argue that the improvement in women's political rights is not merely a result of improvements in democracy, but part of a broader cultural movement. My ultimate question is how important the level of participatory democracy is as either a mediator or moderator of that cultural movement. 
   
   
 ```{r}
@@ -25,48 +26,49 @@ demonstration_data <- read.csv("demonstration_data.csv")
 demonstration_data <- demonstration_data[,c(1,2,3,8,16)]
 
 
+cat("Table 1: Data for Demonstration Project")
 # display the first 6 rows of the data
 head(demonstration_data)
 
 
 
 ```
-The data is a subset of the data from the Varieties of Democracy Project V-Dem version 13 containing a single year 2018.^[Michael Coppedge, John Gerring, Carl Henrik Knutsen, Staffan I. Lindberg, Jan Teorell, David Altman, Michael Bernhard, M. Steven Fish, Adam Glynn, Allen Hicken, Anna Lührmann, Kyle L. Marquardt, Kelly McMann, Pamela Paxton, Daniel Pemstein, Brigitte Seim, Rachel Sigman, Svend-Erik Skaaning, Jeffrey Staton, Natalia Stepanova, and Yi-ting Wang. 2020. "V-Dem [Country-Year/Country-Date] Dataset v10." Varieties of Democracy (V-Dem) Project. https://doi.org/10.23696/vdemds10.] The unit of observation is the country. The chosen variables are the Participatory Democracy Index (*v2x_partipdem*) and Women's Access to Justice (*v2clacjstw*). The data is derived from expert surveys using the V-Dem Project Methodology.^[Pemstein, Daniel, Kyle L. Marquardt, Eitan Tzelgov, Yi-ting Wang, Juraj Medzihorsky, Joshua Krusell, Farhad Miri, and Johannes von Römer. 2023. “The V-Dem Measurement Model: Latent Variable Analysis for Cross-National and Cross-Temporal Expert-Coded Data”. V-Dem Working Paper No. 21. 8th edition. University of Gothenburg: Varieties of Democracy Institute.] 
+The data is a crossnational subset of the data from the Varieties of Democracy Project V-Dem version 13 containing for a single year 2018 and includes 179 country observations.^[Michael Coppedge, John Gerring, Carl Henrik Knutsen, Staffan I. Lindberg, Jan Teorell, David Altman, Michael Bernhard, M. Steven Fish, Adam Glynn, Allen Hicken, Anna Lührmann, Kyle L. Marquardt, Kelly McMann, Pamela Paxton, Daniel Pemstein, Brigitte Seim, Rachel Sigman, Svend-Erik Skaaning, Jeffrey Staton, Natalia Stepanova, and Yi-ting Wang. 2020. "V-Dem [Country-Year/Country-Date] Dataset v10." Varieties of Democracy (V-Dem) Project. https://doi.org/10.23696/vdemds10.] The unit of observation is the country. The chosen variables are the Participatory Democracy Index (*v2x_partipdem*) and Women's Access to Justice (*v2clacjstw*). The data is derived from expert surveys using the V-Dem Project Methodology.^[Pemstein, Daniel, Kyle L. Marquardt, Eitan Tzelgov, Yi-ting Wang, Juraj Medzihorsky, Joshua Krusell, Farhad Miri, and Johannes von Römer. 2023. “The V-Dem Measurement Model: Latent Variable Analysis for Cross-National and Cross-Temporal Expert-Coded Data”. V-Dem Working Paper No. 21. 8th edition. University of Gothenburg: Varieties of Democracy Institute.] 
 
-There are 179 observations of two variables,  Women's Access to Justice and Participatory Democracy Index. Both are continuous variables. 
-
-
+The two variables Women's Access to Justice and Participatory Democracy Index are continuous variables. Women's Access to Justice has a mean of 0.8240, median of 0.9140, and standard deviation of 1.300221 (see Tables 2 and 4). The data has a slight positive skew (see Figure 1). Participatory Democracy has a mean of 0.3376, a median of 0.4815, and a standard deviation of 0.1982502 (See Tables 5 and 7). The distribution is difficult to characterize, with a near uniform distribution below the median and single peak well into the third quartile (see Figure 2).
 
 
-- Third paragraph: The variables - Describe each variable of interest. Two variables is a minimum, with two to three being ideal. If you have more than 4, only describe the four most important. For each variable include: type of variable, mean and median, standard deviation, a statement about the distribution, and any other information you think is especially relevant or interesting. (2 points)
+
+
+
   
 ## Summary Statistices of the variables
 
 ```{r}
 # summary statistics of Y variable
 
-cat("Summary statistics of Women's Access to Justice")
+cat("Table 2: Summary statistics of Women's Access to Justice")
 summary(demonstration_data$v2clacjstw)
 
 # variance and standard deviation of Y variable
 
-cat("Variance of Women's Access to Justice")
+cat("Table 3: Variance of Women's Access to Justice")
 var(demonstration_data$v2clacjstw)
 
-cat("Standard Deviation of Women's Access to Justice")
+cat("Table 4: Standard Deviation of Women's Access to Justice")
 sd(demonstration_data$v2clacjstw)
 
 # summary statistics of X variable
 
-cat("Summary Statistics for Participatory Democracy Index")
+cat("Table 5: Summary Statistics for Participatory Democracy Index")
 summary(demonstration_data$v2x_partipdem)
 
 # variance and standard deviation of X variable
 
-cat("Variance of Participatory Democracy Index")
+cat("Table 6: Variance of Participatory Democracy Index")
 var(demonstration_data$v2x_partipdem)
 
-cat("Standard Deviation of Participatory Democracy Index")
+cat("Table 7: Standard Deviation of Participatory Democracy Index")
 sd(demonstration_data$v2x_partipdem)
 ```
 
@@ -77,7 +79,7 @@ sd(demonstration_data$v2x_partipdem)
 
 # Histogram of Y variable
 
-hist(demonstration_data$v2clacjstw, col = "blue", main = "Histogram of Women's Access to Justice", xlab = "Women's Access to Justice")
+hist(demonstration_data$v2clacjstw, col = "blue", main = "Figure 1: Histogram of Women's Access to Justice", xlab = "Women's Access to Justice")
 
 # Histogram of X variable
 
@@ -90,7 +92,26 @@ hist(demonstration_data$v2x_partipdem, col = "green", main = "Histogram of Parti
   
 ## The Relationship between the variables
 
-  - Fourth paragraph: The relationship between variables - Describe the relationship between the variables you think are the most likely explanatory and dependent (x and y) variables. What is their correlation? Their covariance? (2 points)
+Participatory Democracy and Women's Access to Justice show a clear relationship. The covariance of the variables is 0.203. The Pearson's correlation of the two variables is quite strong at 0.788 (See Table 8).
+  
+```{r message=FALSE, warning=FALSE}
+library(stargazer)
+# correlation between variables
+varcor <- cor(demonstration_data$v2clacjstw, demonstration_data$v2x_partipdem)
+
+
+#covariance between variables
+varcov <- cov(demonstration_data$v2clacjstw, demonstration_data$v2x_partipdem)
+
+
+# correlation and covariance table
+corcov <- cbind(varcor, varcov)
+stargazer(corcov, type = "text", title = "Table 8: Correlation and Covariance of Variables")
+
+```
+
+  
+  
   
 ## Regression Results
 
@@ -103,7 +124,7 @@ model_object1 <- lm(v2clacjstw ~ v2x_partipdem, data = demonstration_data)
 
 # stargazer table of model
 library(stargazer)
-stargazer(model_object1, type = "text", title = "OLS Regression Results", covariate.labels = "Participatory Democracy Index",dep.var.labels = "Women's Access to Justice")
+stargazer(model_object1, type = "text", title = "Table 9: OLS Regression Results", covariate.labels = "Participatory Democracy Index",dep.var.labels = "Women's Access to Justice")
 
 
 # plot of model results with confidence intervals
@@ -113,7 +134,7 @@ library(ggplot2)
 ggplot(data = demonstration_data, aes(x = v2x_partipdem, y = v2clacjstw)) +
   geom_point() +
   geom_smooth(method = "lm", se = TRUE) +
-  labs(title = "Confidence Interval for Regression Line",
+  labs(title = "Figure 3: Confidence Interval for Regression Line",
        subtitle = "95% Confidence Interval for the Slope",
        caption = "Source: VDem ver 13") + 
         xlab("Participatory Democracy Index") + 
@@ -123,10 +144,12 @@ ggplot(data = demonstration_data, aes(x = v2x_partipdem, y = v2clacjstw)) +
 
 ```
 
+A simple univariate Ordinary Least SQuares regression model shows a strong effect of Participatory Democracy on Women's Access to Justice. The coefficient is 5.167, indicating that an increase of one in the Participatory Democracy Index yields an increase of 5.167 in Women's Access to Justice (see Table 9).^[It is worth noting that the maximum value of Participatory Democracy Index is 0.8120 and minimum is 0.0090, while the maximum Women's Access to Justice is 3.9320 and minimum is -2.5770. See Tables 2 and 5.] The result is significant at the 0.01 level. There is a strong linear relationship with a high degree of confidence (see Figure 3).  The model has an Adjusted $R^2$ of 0.618, explaining 61.8/% of the dependent variable. The model has an excellent fit with an F-Statistic significant at the .01 level. 
   
-  
-  - Fifth paragraph: Regression results - Describe the OLS regression results. What is the intercept? What is the coefficient for each explanatory variable? Interpret this coefficient in terms of a change in Y. Is the coefficient significant and at what level? Is the total model significant and how much does it explain? (2 points)
+
   
 ## Conclusion  
+
+The results were not surprising, confirming the expected relationship. No controls were used and nothing was done to determine the direction of causation. The questions suggested by the Welzel, Norris, and Inglehart research (ibid.) suggest that both increases in Participatory Democracy and Women's Access to Justice may be caused by some third cultural variable. It is possible that increased legal rights for women increase participatory democracy. At a minimum in future work, the other democracy indexes from VDem should be included along with the measures used in the Welzel, Norris, and Inglehart research. A more robust model would include additional controls and might include an instrument for the Participatory Democracy index.
   
-  - Sixth paragraph: Conclusion - Summarize what was interesting, compelling, surprising, etc. What new questions were raised? If you did more with this topic what new data would help? (1 / 2 point)
+

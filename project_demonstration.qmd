@@ -1,0 +1,132 @@
+---
+title: "Semester Project"
+author: "Demonstration"
+format: 
+        html:
+                self-contained: true
+                code-fold: true
+                code-summary: "Show the code"
+editor: source
+---
+
+## Introduction
+
+- First paragraph: Introduction - Introduce your topic. If you have a formal or informal research question, you can start with it. (Note: you are not expected to answer the research question this semester.) 
+  - Explain why the topic is important or interesting in one or two sentences. Describe what you hope to learn from the data. Did any other reading influence your thinking or interest (cite appropriately)? (1 / 2 point)
+  
+  
+```{r}
+# load the data
+
+demonstration_data <- read.csv("demonstration_data.csv")
+
+
+# subset data to columns 1, 2, 3, 8, 16
+demonstration_data <- demonstration_data[,c(1,2,3,8,16)]
+
+
+# display the first 6 rows of the data
+head(demonstration_data)
+
+
+
+```
+The data is a subset of the data from the Varieties of Democracy Project V-Dem version 13 containing a single year 2018.^[Michael Coppedge, John Gerring, Carl Henrik Knutsen, Staffan I. Lindberg, Jan Teorell, David Altman, Michael Bernhard, M. Steven Fish, Adam Glynn, Allen Hicken, Anna Lührmann, Kyle L. Marquardt, Kelly McMann, Pamela Paxton, Daniel Pemstein, Brigitte Seim, Rachel Sigman, Svend-Erik Skaaning, Jeffrey Staton, Natalia Stepanova, and Yi-ting Wang. 2020. "V-Dem [Country-Year/Country-Date] Dataset v10." Varieties of Democracy (V-Dem) Project. https://doi.org/10.23696/vdemds10.] The unit of observation is the country. The chosen variables are the Participatory Democracy Index (*v2x_partipdem*) and Women's Access to Justice (*v2clacjstw*). The data is derived from expert surveys using the V-Dem Project Methodology.^[Pemstein, Daniel, Kyle L. Marquardt, Eitan Tzelgov, Yi-ting Wang, Juraj Medzihorsky, Joshua Krusell, Farhad Miri, and Johannes von Römer. 2023. “The V-Dem Measurement Model: Latent Variable Analysis for Cross-National and Cross-Temporal Expert-Coded Data”. V-Dem Working Paper No. 21. 8th edition. University of Gothenburg: Varieties of Democracy Institute.] 
+
+There are 179 observations of two variables,  Women's Access to Justice and Participatory Democracy Index. Both are continuous variables. 
+
+
+
+
+- Third paragraph: The variables - Describe each variable of interest. Two variables is a minimum, with two to three being ideal. If you have more than 4, only describe the four most important. For each variable include: type of variable, mean and median, standard deviation, a statement about the distribution, and any other information you think is especially relevant or interesting. (2 points)
+  
+## Summary Statistices of the variables
+
+```{r}
+# summary statistics of Y variable
+
+cat("Summary statistics of Women's Access to Justice")
+summary(demonstration_data$v2clacjstw)
+
+# variance and standard deviation of Y variable
+
+cat("Variance of Women's Access to Justice")
+var(demonstration_data$v2clacjstw)
+
+cat("Standard Deviation of Women's Access to Justice")
+sd(demonstration_data$v2clacjstw)
+
+# summary statistics of X variable
+
+cat("Summary Statistics for Participatory Democracy Index")
+summary(demonstration_data$v2x_partipdem)
+
+# variance and standard deviation of X variable
+
+cat("Variance of Participatory Democracy Index")
+var(demonstration_data$v2x_partipdem)
+
+cat("Standard Deviation of Participatory Democracy Index")
+sd(demonstration_data$v2x_partipdem)
+```
+
+
+## Histograms of the variables  
+
+```{r}
+
+# Histogram of Y variable
+
+hist(demonstration_data$v2clacjstw, col = "blue", main = "Histogram of Women's Access to Justice", xlab = "Women's Access to Justice")
+
+# Histogram of X variable
+
+hist(demonstration_data$v2x_partipdem, col = "green", main = "Histogram of Participatory Democracy Index", xlab = "Participatory Democracy Index")
+
+# Histogram of additional variables if needed
+
+```
+
+  
+## The Relationship between the variables
+
+  - Fourth paragraph: The relationship between variables - Describe the relationship between the variables you think are the most likely explanatory and dependent (x and y) variables. What is their correlation? Their covariance? (2 points)
+  
+## Regression Results
+
+```{r message=FALSE, warning=FALSE}
+
+# OLS regression model
+
+#define model object using lm()
+model_object1 <- lm(v2clacjstw ~ v2x_partipdem, data = demonstration_data)
+
+# stargazer table of model
+library(stargazer)
+stargazer(model_object1, type = "text", title = "OLS Regression Results", covariate.labels = "Participatory Democracy Index",dep.var.labels = "Women's Access to Justice")
+
+
+# plot of model results with confidence intervals
+library(ggplot2)
+
+
+ggplot(data = demonstration_data, aes(x = v2x_partipdem, y = v2clacjstw)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(title = "Confidence Interval for Regression Line",
+       subtitle = "95% Confidence Interval for the Slope",
+       caption = "Source: VDem ver 13") + 
+        xlab("Participatory Democracy Index") + 
+        ylab("Access to Justice for Women") 
+
+
+
+```
+
+  
+  
+  - Fifth paragraph: Regression results - Describe the OLS regression results. What is the intercept? What is the coefficient for each explanatory variable? Interpret this coefficient in terms of a change in Y. Is the coefficient significant and at what level? Is the total model significant and how much does it explain? (2 points)
+  
+## Conclusion  
+  
+  - Sixth paragraph: Conclusion - Summarize what was interesting, compelling, surprising, etc. What new questions were raised? If you did more with this topic what new data would help? (1 / 2 point)

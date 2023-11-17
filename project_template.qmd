@@ -1,0 +1,75 @@
+---
+title: "Semester Project"
+author: "Demonstration"
+format: 
+        html:
+                self-contained: true
+                code-fold: true
+                code-summary: "Show the code"
+editor: source
+---
+
+## Introduction
+
+- First paragraph: Introduction - Introduce your topic. If you have a formal or informal research question, you can start with it. (Note: you are not expected to answer the research question this semester.) 
+  - Explain why the topic is important or interesting in one or two sentences. Describe what you hope to learn from the data. Did any other reading influence your thinking or interest (cite appropriately)? (1 / 2 point)
+ 
+- Second paragraph: The dataset - Describe the dataset. What is its source? What data does it contain generally? What is the unit of observation? How was the data derived (experiment, survey, observational data, etc.)? (2 points)
+  - Third paragraph: The variables - Describe each variable of interest. Two variables is a minimum, with two to three being ideal. If you have more than 4, only describe the four most important. For each variable include: type of variable, mean and median, standard deviation, a statement about the distribution, and any other information you think is especially relevant or interesting. (2 points)
+  
+## Summary Statistices of the variables
+
+```{r}
+# load the data
+
+# summary statistics of Y variable
+
+# variance and standard deviation of Y variable
+
+# summary statistics of X variable
+
+# variance and standard deviation of X variable
+
+
+```
+
+
+## Histograms of the variables  
+
+```{r}
+
+# Histogram of Y variable
+
+# Histogram of X variable
+
+# Histogram of additional variables if needed
+
+```
+
+  
+## The Relationship between the variables
+
+  - Fourth paragraph: The relationship between variables - Describe the relationship between the variables you think are the most likely explanatory and dependent (x and y) variables. What is their correlation? Their covariance? (2 points)
+  
+## Regression Results
+
+```{r message=FALSE, warning=FALSE}
+
+# OLS regression model
+
+# stargazer table of model
+library(stargazer)
+
+
+# plot of model results with confidence intervals
+library(ggplot2)
+
+```
+
+  
+  
+  - Fifth paragraph: Regression results - Describe the OLS regression results. What is the intercept? What is the coefficient for each explanatory variable? Interpret this coefficient in terms of a change in Y. Is the coefficient significant and at what level? Is the total model significant and how much does it explain? (2 points)
+  
+## Conclusion  
+  
+  - Sixth paragraph: Conclusion - Summarize what was interesting, compelling, surprising, etc. What new questions were raised? If you did more with this topic what new data would help? (1 / 2 point)

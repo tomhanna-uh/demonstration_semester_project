@@ -9,37 +9,39 @@ format:
 editor: source
 ---
 
-The preferred format would be to do your work in a code chunk at the end of this document after the instructions. Use echo=TRUE for your code chunk so that your code is visible. 
+The preferred format would be to do your work in a code chunk at the end of this document after the instructions. Use echo=TRUE for your code chunk so that your code is visible.
 
 Do not alter the top lines between --- and --- except to *carefully* add your name inside the quotes.
 
 Using your project data set, or any built in R dataset, do the following:
 
-1. Using your chosen y (dependent) variable and one of your chosen x (explanatory) variables, perform a simple OLS regression using R. Follow these steps:
+1.  Using your chosen y (dependent) variable and one of your chosen x (explanatory) variables, perform a simple OLS regression using R. Follow these steps:
 
-A. Load your data into a dataframe object
+A. Load your data into a dataframe object 
+
 B. define a model object using the lm() function
 
-        - The format is `model <- lm(y ~ x, data = dataframe)`
-        - where:
-        - y is the dependent variable name from your dataframe
-        - x is the explanatory variable name from your dataframe
-        - and dataframe is the name of your dataframe object
+        
+    - The format is `model <- lm(y ~ x, data = dataframe)`
+    - where:
+    - y is the dependent variable name from your dataframe
+    - x is the explanatory variable name from your dataframe
+    - and dataframe is the name of your dataframe object
+
 
 C. report the model statistics using the summary() function
-
-        - The format is `summary(model)`
-
-D. produce a model table using the stargazer() function from the stargazer library with type = "text" 
-
-        - The format is `stargazer(model, type = "text")`
-  
-2. Using the same variables, produce a scatterplot with an lm() line and 95% confidence interval. You may use the base r plot() function or the ggplot() function from Lecture 15.
+       
+    - The format is `summary(model)`
 
 
+D. produce a model table using the stargazer() function from the stargazer library with type = "text"
+        
+    - The format is `stargazer(model, type = "text")`
+
+
+2.  Using the same variables, produce a scatterplot with an lm() line and 95% confidence interval. You may use the base r plot() function or the ggplot() function from Lecture 15.
 
 Load the data:
-
 
 ```{r}
 #load demonstration_data.csv - you will use your own data and assign your own dataframe name
@@ -49,7 +51,6 @@ head(demonstration_data)
 ```
 
 Define the model object using the lm function:
-
 
 ```{r}
 
@@ -76,6 +77,7 @@ Produce a model table using the stargazer() function from the stargazer library 
 # produce a model table using stargazer()
 #first it is necessary to load the stargazer package with the library command
 #install.packages("stargazer") # If you have not previously installed stargazer, you will need to do this first
+
 library(stargazer)
 
 stargazer(model_object1, type = "text")
@@ -83,6 +85,7 @@ stargazer(model_object1, type = "text")
 
 
 ```
+
 ## Not from Problem Set but important
 
 What is the equation for the regression line?
@@ -95,14 +98,13 @@ The coefficient for X (v2x_partipdem) is 5.167
 
 *so the equation is*
 
-v2clacjstw = -0.920 + 5.167* v2x_partipdem + error
+v2clacjstw = -0.920 + 5.167\* v2x_partipdem + error
 
 Are the results significant?
 
-The coefficient of v2x_partipdem is 5.167 and the standard error is 0.304. The t-value is 17.016. The p-value is < .05. The coefficient is significant at the 95% confidence level.
+The coefficient of v2x_partipdem is 5.167 and the standard error is 0.304. The t-value is 17.016. The p-value is \< .05. The coefficient is significant at the 95% confidence level.
 
-The Constant is also significant. 
-
+The Constant is also significant.
 
 Use the ggplot function to produce a scatter plot with an lm() line and 95% confidence interval for the variables from the model object:
 
@@ -117,7 +119,7 @@ ggplot(data = demonstration_data, aes(x = v2x_partipdem, y = v2clacjstw)) +
   geom_smooth(method = "lm", se = TRUE) +
   labs(title = "Confidence Interval for Regression Line",
        subtitle = "95% Confidence Interval for the Slope",
-       caption = "Source: VDem ver 13") + 
+       caption = "Source: V-Dem version 13") + 
         xlab("Participatory Democracy Index") + 
         ylab("Access to Justice for Women") 
 

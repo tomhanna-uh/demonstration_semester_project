@@ -124,7 +124,7 @@ model_object1 <- lm(v2clacjstw ~ v2x_partipdem, data = demonstration_data)
 
 # stargazer table of model
 library(stargazer)
-stargazer(model_object1, type = "text", title = "Table 9: OLS Regression Results", covariate.labels = "Participatory Democracy Index",dep.var.labels = "Women's Access to Justice")
+stargazer(model_object1, type = "text", title = "Table 9: OLS Regression Results", covariate.labels = "Participatory Democracy Index", dep.var.labels = "Women's Access to Justice")
 
 
 # plot of model results with confidence intervals
